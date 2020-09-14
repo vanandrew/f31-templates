@@ -95,11 +95,12 @@ EDUCATION/TRAINING (\textit{Begin with baccalaureate or other initial profession
 {%
 \bgroup\centering
 \tabulinesep=1.5mm
-\begin{tabu} to \textwidth {X[3.73,l,m]|X[1,c,m]|X[1,c,m]|X[1.8,l,m]}
+\begin{tabu} to \textwidth {X[3.73,l,m]|X[1,c,m]|X[1,c,m]|X[1,c,m]|X[1.8,l,m]}
 \hline
 \rowfont[c]{}               % for the header only we want all the text centered
 INSTITUTION AND LOCATION & 
 DEGREE \newline (\textit{if applicable}) & 
+Start Date MM/YYYY & 
 Completion Date MM/YYYY & 
 FIELD OF STUDY\\
 \hline}

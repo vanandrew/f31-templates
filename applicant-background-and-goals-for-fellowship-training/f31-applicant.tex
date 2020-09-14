@@ -3,6 +3,7 @@
 \usepackage{pgfgantt}
 \usepackage{graphicx,caption}
 \usepackage{xcolor}
+\usepackage{float}
 %\usetikzlibrary{positioning}
 
 % dummy text
@@ -24,7 +25,7 @@ milestone/.append style={red}}
 %%%%%%% Times and others (must compile under XeLaTeX):
 \usepackage{fontspec}
 \defaultfontfeatures{Ligatures=TeX} % to allow en dashes, must be before \setmainfont{}
-\setmainfont{Times New Roman}
+\setmainfont{Arial}
 
 %%%%%%% space between paragraphs
 \setlength{\parskip}{6pt} 
@@ -99,7 +100,7 @@ List paper topic, venue, brief description:
 
 The figure below describes the activities I will be involved in during the proposed research training plan.
 
-\begin{figure}[h]
+\begin{figure}[H]
      \begin{ganttchart}[%Specs
      y unit title=0.5cm,
      y unit chart=0.55cm,
@@ -167,9 +168,6 @@ The figure below describes the activities I will be involved in during the propo
   	 \ganttbar[progress=0,progress label text={},inline=false]{Conference}{11}{11} \\
   	 \ganttbar[progress=0,progress label text={},inline=false]{Conference}{7}{7}
   	 \ganttbar[progress=0,progress label text={},inline=false]{}{19}{19}
-
-%  	
-%  	
 \end{ganttchart}\caption*{\textbf{Timeline for Proposal}. }
 \end{figure}
 \end{document}
